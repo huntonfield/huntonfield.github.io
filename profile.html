@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <style type="text/css">
+    *
+    {
+      font-family: " sans serif";
+    }
+    .propic
+    {
+      border-radius: 50%;
+      height: 180px;
+      width: 160px; 
+      box-shadow: 10px 12px 42px -12px #000;
+      margin-top: 20px;
+      border-style: solid;
+      border-color: #fff;
+      border-width: 2px;
+    }
+    .profile-right h2
+    {
+      font-family: "timesnewroman";
+      font-style: italic;
+    }
+    
+  #PERSONALinfo{
+  overflow: hidden;
+  width: 100%;
+}
+
+#PERSONALinfo h5{
+  padding: .9em 9em .9em 2em;
+  float: left;
+    color: #fff;
+  position: relative;
+  background-color: #444;  
+}
+#PERSONALinfo li
+{
+  margin-right: 0;
+  display: inline-block;
+}
+
+#PERSONALinfo h5::after,
+#PERSONALinfo h5::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  color: #444;
+  margin-top: -1.5em;   
+  border-top: 1.5em solid transparent;
+  border-bottom: 1.5em solid transparent;
+  border-left: 1em solid;
+  right: -1em;
+}
+
+
+  </style>
+</head>
+<body>
+  
+<div class="container">
+  <div class="row" >
+    <div class="col-sm-4 profile-right" style="background-color: #a0c1c8; ">
+      <cenetr><img src="images/content/CEO.jpg" class="propic" >
+      <h2>Dr. D.Y. Patil</h2></cenetr>
+      <ul id="PERSONALinfo" style="">
+      <li style="width: 100%; margin-left: -60px;"><h5>PERSONAL INFO.</h5></li>
+      </ul>
+      <h4>DOB :</h4>
+      <h4>Marital status :</h4>
+      <ul id="PERSONALinfo" style="">
+      <li style="width: 100%; margin-left: -60px;"><h5>PERSONAL INFO.</h5></li>
+      </ul>
+    </div>
+    <div class="col-sm-8">
+      <h1><u>PROFILE</u></h1>
+      <h4>A) OBJECTIVE</h4>
+      <p> To develop leaders, managers and entrpreneurs who will be committed to the
+overall development of our nation.
+</p>
+<hr>
+<h4>B) PROFESSIONAL/ACADEMIC QUALIFICATIONS</h4>
+      <div class="row">
+        <div class="col-sm-6">Degree</div>
+        <div class="col-sm-6">university</div>
+      </div>
+      <hr>
+<h4>C) EXPERIENCE </h4>
+      <div class="row">
+        <div class="col-sm-6">Teaching</div>
+        <div class="col-sm-6">17 years</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

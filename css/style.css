@@ -1,0 +1,20 @@
+
+body {
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    position: relative;
+  }
+
+
+html, body {
+     width: 100%;
+     overflow-x: hidden;
+  }
+
+h1, h2, h3, h4 {
+  color: #000;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
